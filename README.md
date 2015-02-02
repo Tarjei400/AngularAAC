@@ -10,20 +10,20 @@ I started this project mainly beacouse I want to improve my skills in web develo
 
 
 Database handling  : 
- - PHP Active Record
- (considering this one instead: https://github.com/bfanger/angular-activerecord)
+ - Sequelize
 
 Front End: 
  - AngularJS 
 
-Planned Modules : 
- -Authorization
-  	 * Regular
-	 * FUTURE: Using Community portals such as Facebook
-  	  (Later on write add support for Otclient so this authorisation method has sense) 
+Server Engine 
+ - Express 
 
 
 #User modules
+ - Authorization
+  	 * Regular
+	 * FUTURE: Using Community portals such as Facebook
+  	  (Later on write add support for Otclient so this authorisation method has sense)
 
  - CreateCharacter
  
