@@ -21,7 +21,8 @@ Planned Modules :
 	 * FUTURE: Using Community portals such as Facebook
   	  (Later on write add support for Otclient so this authorisation method has sense) 
 
- # User modules
+
+#User modules
 
  - CreateCharacter
  
@@ -33,7 +34,7 @@ Planned Modules :
 
  - Shop module
 
- # Administrative Modules
+#Administrative Modules
  
  - CRUD for news 
  - Administrative actions upon players.
