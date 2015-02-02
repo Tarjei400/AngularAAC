@@ -15,6 +15,28 @@ Database handling  :
 Front End: 
  - AngularJS 
 
+Planned Modules : 
+ -Authorization
+  	 * Regular
+	 * FUTURE: Using Community portals such as Facebook
+  	  (Later on write add support for Otclient so this authorisation method has sense) 
+
+ - CreateCharacter
+ 
+ - Highscores 
+ - Lastest News 
+
+ - Payment modules 
+   (SMS, Paypal etc.) 
+
+ - Shop module
+
+ #Administrative Modules
+ 
+ - CRUD for news 
+ - Administrative actions upon players.
+ 
+
 
 
 
