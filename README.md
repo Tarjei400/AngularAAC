@@ -11,6 +11,7 @@ I started this project mainly beacouse I want to improve my skills in web develo
 
 Database handling  : 
  - PHP Active Record
+ (considering this one instead: https://github.com/bfanger/angular-activerecord)
 
 Front End: 
  - AngularJS 
@@ -33,6 +34,9 @@ Planned Modules :
    (SMS, Paypal etc.) 
 
  - Shop module
+
+ - Realtime Shoutbox (with Node.js)
+
 
 #Administrative Modules
  
