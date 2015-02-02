@@ -1,3 +1,5 @@
+![Picture](https://travis-ci.org/Tarjei400/AngularAAC.svg?branch=master)
+
 # AngularAAC
 
 
