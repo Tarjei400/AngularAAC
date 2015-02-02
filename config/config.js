@@ -6,6 +6,7 @@
 var _ = require('lodash'),
 	glob = require('glob');
 
+
 /**
  * Load app configurations
  */
@@ -74,3 +75,4 @@ module.exports.getCSSAssets = function() {
 	var output = this.getGlobbedFiles(this.assets.lib.css.concat(this.assets.css), 'public/');
 	return output;
 };
+
