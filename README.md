@@ -21,6 +21,8 @@ Planned Modules :
 	 * FUTURE: Using Community portals such as Facebook
   	  (Later on write add support for Otclient so this authorisation method has sense) 
 
+ #User modules
+
  - CreateCharacter
  
  - Highscores 
