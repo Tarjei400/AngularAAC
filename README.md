@@ -10,7 +10,7 @@ I started this project mainly beacouse I want to improve my skills in web develo
 
 
 Database handling  : 
- - Sequelize
+ - Sequelize (http://sequelizejs.com/articles/express)
 
 Front End: 
  - AngularJS 
@@ -31,19 +31,28 @@ Server Engine
  - Lastest News 
 
  - Payment modules 
-   (SMS, Paypal etc.) 
+   (SMS, Paypal, PayU) 
 
- - Shop module
+ - Shop module (http://ngcart.snapjay.com/#/cart)
 
  - Realtime Shoutbox (with Node.js)
 
+ -Administrative Module 
+     -Latest news Create/Read/Update/Delete + Sequelize + http://textangular.com/
+     -Manage Players
 
-#Administrative Modules
- 
- - CRUD for news 
- - Administrative actions upon players.
- 
 
+
+#Dependicies : 
+ - Sequelize 
+ - http://textangular.com/
+ - https://github.com/gtramontina/stripe-angular (For Payments)
+ - angular-translate (Providing translations )
+ - Cosmo (neat website base) http://ngmodules.org/modules/Cosmo
+ - ngDialog (introduce modal dialogs) :)
+ - Angular loaders (http://cgross.github.io/angular-busy/demo/)
+ - Google Analitics http://luisfarzati.github.io/angulartics/
+ - http://ngcart.snapjay.com/#/cart
 
 
 
