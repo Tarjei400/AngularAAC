@@ -51,7 +51,9 @@
 			{% block content %}{% endblock %}
 		</section>
 	</section>
+	<section data-ng-include= "'/modules/top-menu/views/top-menu.client.view.html'"></section>
 	<section data-ng-include= "'/modules/side-menu/views/side-menu.client.view.html'"></section>
+	<section data-ng-include= "'/modules/login-panel/views/login-panel.client.view.html'"></section>
 	<!--Embedding The User Object-->
 	<script type="text/javascript">
 		var user = {{ user | json | safe }};
