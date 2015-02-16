@@ -7,7 +7,6 @@
 var _ = require('lodash');
 
 var Sequelize = require('sequelize');
-//var Project = sequelize.import(__dirname + "/path/to/models/project")
 var sequelize = new Sequelize('nnw', 'root', '', {
 	 dialect: "mysql", // or 'sqlite', 'postgres', 'mariadb'
          port:    3306, // or 5432 (for postgres)
