@@ -1,0 +1,5 @@
+{% extends 'layout.server.view.html' %}
+
+{% block side-menu %}
+	<section data-ng-include = "'/modules/side-menu/views/side-menu.client.view.html'"></section>
+{% endblock %}

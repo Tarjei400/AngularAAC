@@ -44,16 +44,27 @@
 </head>
 
 <body class="ng-cloak">
-	<header data-ng-include="'/modules/core/views/header.client.view.html'" class="navbar navbar-fixed-top navbar-inverse"></header>
-
-	<section class="content">
-		<section class="container">
-			{% block content %}{% endblock %}
-		</section>
-	</section>
+<!-- 	<header data-ng-include="'/modules/core/views/header.client.view.html'" class="navbar navbar-fixed-top navbar-inverse"></header> -->
+	<img src="https://camo.githubusercontent.com/65e61e8870d52f90c30e859ca29af52139d936ab/687474703a2f2f6f70656e74696269612e6e65742f7075626c69632f7374796c655f696d616765732f4e6563726f6e69612f6c6f676f2e706e67" class="img-responsive" alt="Cinque Terre">
 	<section data-ng-include= "'/modules/top-menu/views/top-menu.client.view.html'"></section>
-	<section data-ng-include= "'/modules/side-menu/views/side-menu.client.view.html'"></section>
-	<section data-ng-include= "'/modules/login-panel/views/login-panel.client.view.html'"></section>
+	
+	<section class="content">
+	    <div class = "container-fluid">
+	      <div class ="row">
+		<div class ="col-xs-2">
+		    <section data-ng-include= "'/modules/side-menu/views/side-menu.client.view.html'" ></section>
+		</div>
+		<div class = "col-xs-8">
+			{% block content %}{% endblock %}
+		</div>
+		 <section data-ng-include= "'/modules/login-panel/views/login-panel.client.view.html'"></section>
+
+	      </div>
+	    </div>
+
+	</section>
+
+	
 	<!--Embedding The User Object-->
 	<script type="text/javascript">
 		var user = {{ user | json | safe }};
